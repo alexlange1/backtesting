@@ -37,5 +37,12 @@ backtest_results/
 .mypy_cache/
 .pytest_cache/
 
-# Images in generated results (keep project images by default)
-backtest_results/**/*.png
+# Images and generated outputs
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Data files (large JSON emissions data)
+data/emissions_v2/*.json
+emissions_v2/*.json
